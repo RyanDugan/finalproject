@@ -1,3 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+	grid-gap: 10px;
+	background-color: #9488FF;
+	padding: 10px;
+}
