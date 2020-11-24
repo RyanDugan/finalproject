@@ -1,10 +1,61 @@
 @charset "utf-8";
 /* CSS Document */
 
-.grid-container {
+* {
+	box-sizing: border-box;
+	font-family:"Goudy Old Style", Cambria;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: auto;
+	max-width: 600px;
+}
+
+body {
+	background-image:url("images/pattern.overlay.jpg");
+}
+
+.container {
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-	grid-gap: 10px;
-	background-color: #9488FF;
-	padding: 10px;
+	grid-gap: 15px;
+	grid-template-columns: repeat (3, 1fr);
+	grid-template-rows: 50px 50px;
+	width: 80%;
+	margin: auto;
+}
+
+.header {
+	background-color: #51B9AE;
+	box-shadow: 5px 3px 1px gray;
+}
+
+.navbar {
+	background-color: #8361AB;
+	box-shadow: 5px 3px 1px gray;
+	color: white;
+}
+
+.aside {
+	background-color: #D6E052;
+	box-shadow: 5px 3px 1px gray;
+}
+
+.heading {
+	background-color: #51B9AE;
+	box-shadow: 5px 3px 1px gray;
+	color: white;
+}
+
+.main {
+	background-color: #51B9AE;
+	box-shadow: 5px 3px 1px gray;
+}
+
+.footer {
+	background-color: #2C6E91;
+	box-shadow: 5px 3px 1px gray;
+	color: white;
 }
