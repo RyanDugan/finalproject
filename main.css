@@ -6,6 +6,43 @@
 	font-family:"Goudy Old Style", Cambria;
 }
 
+body {
+	background-image:url("images/pattern.overlay.jpg");
+}
+
+nav a:active {
+	color:white;
+}
+
+nav a:hover {
+	
+}
+
+nav a:visited {
+	color: white;
+}
+
+nav  a:link {
+	font-family:"Goudy Old Style", Cambria;
+	color:white;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+nav li {
+	display:inline;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* --- ID Below Here --- */
+
 #logo {
 	display: block;
 	margin: auto;
@@ -14,48 +51,57 @@
 	max-width: 600px;
 }
 
-body {
-	background-image:url("images/pattern.overlay.jpg");
-}
+/* --- Classes Below Here --- */
 
-.container {
-	display: grid;
-	grid-gap: 15px;
-	grid-template-columns: repeat (3, 1fr);
-	grid-template-rows: 50px 50px;
-	width: 80%;
-	margin: auto;
-}
-
-.header {
-	background-color: #51B9AE;
-	box-shadow: 5px 3px 1px gray;
-}
-
-.navbar {
-	background-color: #8361AB;
-	box-shadow: 5px 3px 1px gray;
-	color: white;
+.active {
+	
 }
 
 .aside {
 	background-color: #D6E052;
 	box-shadow: 5px 3px 1px gray;
+	/*grid-area: aside aside2;*/
 }
 
-.heading {
-	background-color: #51B9AE;
-	box-shadow: 5px 3px 1px gray;
-	color: white;
-}
-
-.main {
-	background-color: #51B9AE;
-	box-shadow: 5px 3px 1px gray;
+.container {
+	display: grid;
+	grid-gap: 15px;
+	/*grid-template-areas:
+		'nav nav nav'
+		'aside heading heading'
+		'aside2 main main'
+		'footer footer footer';*/
+	width: 80%;
+	margin: 15px auto auto auto;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 40px 200px 40px;
 }
 
 .footer {
 	background-color: #2C6E91;
 	box-shadow: 5px 3px 1px gray;
 	color: white;
+	/*grid-area: footer;*/
+	grid-column: 1 / -1;
+}
+
+.heading {
+	background-color: #51B9AE;
+	box-shadow: 5px 3px 1px gray;
+	color: white;
+	/*grid-area: heading;*/
+}
+
+.main {
+	background-color: #51B9AE;
+	box-shadow: 5px 3px 1px gray;
+	/*grid-area: main;*/
+}
+
+.navbar {
+	background-color: #8361AB;
+	box-shadow: 5px 3px 1px gray;
+	color: white;
+	/*grid-area: nav;*/
+	grid-column: 1 / -1;
 }
