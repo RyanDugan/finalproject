@@ -25,8 +25,7 @@ nav a:hover {
 }
 
 nav  a:link {
-	font-family:"Goudy Old Style", Cambria;
-	color:white;
+	font-family: goudy-old-style,serif, Cambria;	color:white;
 	text-decoration: none;
 }
 
