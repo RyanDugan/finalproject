@@ -28,7 +28,6 @@ nav  a:link {
 	font-family:"Goudy Old Style", Cambria;
 	color:white;
 	text-decoration: none;
-	margin-right: 20px;
 }
 
 nav a:visited {
@@ -38,15 +37,15 @@ nav a:visited {
 nav li {
 	float: left;
 	display:inline;
-	font-weight: 700;
-	font-size: 20px;
+	font-weight: 400;
+	font-size: 18px;
 }
 
 nav li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px;
 	text-decoration: none;
 }
 
@@ -74,7 +73,7 @@ nav ul {
 /* --- Classes Below Here --- */
 
 .active {
-	background-color: black;
+	background-color: #484848;
 }
 
 .aside {
@@ -82,13 +81,16 @@ nav ul {
 	box-shadow: 5px 3px 1px gray;
 	grid-area: a;	
 	text-align: center;
+	padding: 40px;
+	font-family: Adventure, "Goudy Old Style", Cambria;
 }
 
 .aside2 {
 	background-color: #D6E052;
 	box-shadow: 5px 3px 1px gray;
 	grid-area: a2;
-	text-align: center;	
+	font-size: 16px;
+	padding: 20px 40px;
 }
 
 .container {
@@ -120,7 +122,6 @@ nav ul {
 	box-shadow: 5px 3px 1px gray;
 	color: white;
 	grid-area: f;	
-	text-align: end;
 }
 
 .heading {
@@ -164,6 +165,12 @@ nav ul {
 	height: 100%;
 	border: none;
 }
+
+.socials {
+	float:left;
+}
+
+/*---Responsive Resize Below---*/
 
 @media (max-width : 1300px ){
 	.container {
