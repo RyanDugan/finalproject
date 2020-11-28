@@ -3,12 +3,12 @@
 
 * {
 	box-sizing: border-box;
-	font-family: goudy-old-style,serif, Cambria;
 }
 
 body {
 	background-image:url("images/pattern.overlay.jpg");
 	font-size: 18px;
+	font-family: goudy-old-style,serif, Cambria;
 }
 
 h1 {
@@ -82,7 +82,7 @@ nav ul {
 	grid-area: a;	
 	text-align: center;
 	padding: 40px;
-	font-family: adventure, script, goudy-old-style, serif, Cambria;
+	font-family: adventure, script;
 }
 
 .aside2 {
