@@ -25,7 +25,8 @@ nav a:hover {
 }
 
 nav  a:link {
-	font-family: goudy-old-style,serif, Cambria;	color:white;
+	font-family: goudy-old-style,serif, Cambria;	
+	color:white;
 	text-decoration: none;
 }
 
@@ -81,7 +82,7 @@ nav ul {
 	grid-area: a;	
 	text-align: center;
 	padding: 40px;
-	font-family: Adventure, "Goudy Old Style", Cambria;
+	font-family: adventure, script, goudy-old-style, serif, Cambria;
 }
 
 .aside2 {
