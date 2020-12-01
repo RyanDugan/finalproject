@@ -83,12 +83,13 @@ nav ul {
 	height: 100%;
 	margin: 15px auto auto auto;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 50px auto auto auto 50px;
+	grid-template-rows: 50px auto auto auto auto 50px;
 	grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
 		"h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2"
 		"h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3"
+		"h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4"
 		"f f f f f f f f f f f f";
 }
 
@@ -143,6 +144,18 @@ nav ul {
 	height: 150px;
 }
 
+.heading4 {
+	background-color: #51B9AE;
+	color: white;
+	box-shadow: 5px 3px 1px gray;
+	grid-area: h4;
+	display: grid;
+	grid-template-areas: 
+	"th t e";
+	overflow: hidden;
+	height: 150px;
+}
+
 .navbar {
 	background-color: #8361AB;
 	box-shadow: 5px 3px 1px gray;
@@ -180,6 +193,7 @@ nav ul {
 		"h h h h h h h h h h h h"
 		"h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2"
 		"h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3"
+		"h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4"
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
@@ -198,6 +212,13 @@ nav ul {
 		"th t"
 		"th e"
 	}
+	
+	.heading4 {
+		grid-template-areas: 
+		"th t"
+		"th e"
+	}	
+	
 	.excerpt {
 		padding: 0px 10px 10px;
 	}
