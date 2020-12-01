@@ -112,7 +112,7 @@ nav ul {
 	grid-area: h;
 	display: grid;
 	grid-template-areas: 
-	"th t e ";
+	"th t e";
 	overflow: hidden;
 	height: 150px;
 }
