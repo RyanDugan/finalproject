@@ -179,8 +179,7 @@ nav ul {
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
 		"m m m m m m m m m m m m"
-		"a a a a a a a a a a a a"
-		"a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2"
+		"a a a a a a a2 a2 a2 a2 a2 a2"
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
@@ -188,4 +187,14 @@ nav ul {
 		grid-template-columns: auto;
 		grid-template-rows: auto;
 	}
+	.responsive-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		border: none;
+}
 }
