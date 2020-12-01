@@ -6,7 +6,7 @@
 }
 
 body {
-	background-image:url("images/pattern.overlay.jpg");
+	background-image:url("images/pattern.overlay2.jpg");
 	font-size: 18px;
 	font-family: goudy-old-style,serif, Cambria;
 }
@@ -142,10 +142,11 @@ nav ul {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	grid-gap: 20px;
-	background-color: #51B9AE;
-	box-shadow: 5px 3px 1px gray;
+	background-color: white;
+	box-shadow: 5px 3px 1px gray; 
 	grid-area: m;
 	padding: 40px;
+	border: 3px solid #51b9ae;
 }
 
 .navbar {
