@@ -165,6 +165,7 @@ nav ul {
 		grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
+		"h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2"
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
