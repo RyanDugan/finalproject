@@ -83,10 +83,11 @@ nav ul {
 	height: 100%;
 	margin: 15px auto auto auto;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 50px auto auto auto auto 50px;
+	grid-template-rows: 50px auto auto 50px;
 	grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
+		"m m m m m m m m m m m m"
 		"f f f f f f f f f f f f";
 }
 
@@ -102,12 +103,22 @@ nav ul {
 	color: white;
 	box-shadow: 5px 3px 1px gray;
 	grid-area: h;
+	padding: 5px 40px;
+	align-content: center;
+	justify-content: center;
+	border: 2px solid black;
 	display: grid;
-	grid-template-columns: 1fr 2fr 4fr;
-	grid-template-areas: 
-	"th t e";
-	overflow: hidden;
-	height: 150px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 20px;
+	background-color: #51B9AE;
+	box-shadow: 5px 3px 1px gray; 
+	grid-area: m;
+	padding: 40px;
 	border: 2px solid black;
 }
 
@@ -118,6 +129,17 @@ nav ul {
 	grid-area: n;
 }
 
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
 .socials {
 	float:left;
 }
@@ -125,18 +147,26 @@ nav ul {
 /*---Responsive Resize Below---*/
 
 @media (max-width : 1300px ){
-	
 	.container {
 		grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
+		"m m m m m m m m m m m m"
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
-	.heading {
+	.main {
 		grid-template-columns: auto;
-		grid-template-areas: 
-		"th t"
-		"th e"
+		grid-template-rows: auto;
 	}
+	.responsive-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		border: none;
+}
 }
