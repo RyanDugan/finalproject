@@ -87,13 +87,14 @@ div a {
 	height: 100%;
 	margin: 15px auto auto auto;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 50px auto auto auto auto 50px;
+	grid-template-rows: 50px auto auto auto auto auto 50px;
 	grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
 		"h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2"
 		"h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3"
 		"h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4"
+		"h5 h5 h5 h5 h5 h5 h5 h5 h5 h5 h5 h5"
 		"f f f f f f f f f f f f";
 }
 
@@ -167,6 +168,20 @@ div a {
 	border: 2px solid black;
 }
 
+.heading5 {
+	background-color: #51B9AE;
+	color: white;
+	box-shadow: 5px 3px 1px gray;
+	grid-area: h5;
+	display: grid;
+	grid-template-columns: 1fr 2fr 4fr;
+	grid-template-areas: 
+	"th t e";
+	overflow: hidden;
+	height: 150px;
+	border: 2px solid black;
+}
+
 .navbar {
 	background-color: #8361AB;
 	box-shadow: 5px 3px 1px gray;
@@ -202,10 +217,11 @@ div a {
 		"h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2"
 		"h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3"
 		"h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4"
+		"h5 h5 h5 h5 h5 h5 h5 h5 h5 h5 h5 h5"
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
-	.heading {
+	/*.heading {
 		grid-template-columns: auto;
 		grid-template-areas: 
 		"th t"
@@ -230,6 +246,13 @@ div a {
 		"th t"
 		"th e"
 	}	
+	
+	.heading5 {
+		grid-template-columns: auto;
+		grid-template-areas: 
+		"th t"
+		"th e"
+	}	*/
 	
 	.excerpt {
 		padding: 0px 10px 10px;
