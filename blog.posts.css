@@ -83,12 +83,19 @@ nav ul {
 	height: 100%;
 	margin: 15px auto auto auto;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 50px auto auto 50px;
+	grid-template-rows: 50px auto auto auto auto 50px;
 	grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
 		"m m m m m m m m m m m m"
 		"f f f f f f f f f f f f";
+}
+
+.container-youtube {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 56.25%;
 }
 
 .footer {
@@ -107,8 +114,6 @@ nav ul {
 	align-content: center;
 	justify-content: center;
 	border: 2px solid black;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
 }
 
 .main {
