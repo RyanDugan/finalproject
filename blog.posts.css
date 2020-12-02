@@ -98,6 +98,10 @@ nav ul {
 	padding-top: 56.25%;
 }
 
+.date {
+	text-align: end;
+}
+
 .footer {
 	background-color: #2C6E91;
 	box-shadow: 5px 3px 1px gray;
@@ -114,6 +118,8 @@ nav ul {
 	align-content: center;
 	justify-content: center;
 	border: 2px solid black;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .main {
