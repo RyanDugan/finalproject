@@ -60,10 +60,6 @@ nav ul {
 	overflow: hidden;
 }
 
-div a {
-	text-decoration: none;
-}
-
 /* --- ID Below Here --- */
 
 #logo {
@@ -91,17 +87,7 @@ div a {
 	grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
-		"h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2"
-		"h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3"
-		"h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4"
 		"f f f f f f f f f f f f";
-}
-
-.excerpt {
-	color: black;
-	grid-area: e;
-	padding: 30px 40px 10px 0px;
-	display: inline-block;
 }
 
 .footer {
@@ -125,63 +111,11 @@ div a {
 	border: 2px solid black;
 }
 
-.heading2 {
-	background-color: #51B9AE;
-	color: white;
-	box-shadow: 5px 3px 1px gray;
-	grid-area: h2;
-	display: grid;
-	grid-template-columns: 1fr 2fr 4fr;
-	grid-template-areas: 
-	"th t e";
-	overflow: hidden;
-	height: 150px;
-	border: 2px solid black;
-}
-
-.heading3 {
-	background-color: #51B9AE;
-	color: white;
-	box-shadow: 5px 3px 1px gray;
-	grid-area: h3;
-	display: grid;
-	grid-template-columns: 1fr 2fr 4fr;
-	grid-template-areas: 
-	"th t e";
-	overflow: hidden;
-	height: 150px;
-	border: 2px solid black;
-}
-
-.heading4 {
-	background-color: #51B9AE;
-	color: white;
-	box-shadow: 5px 3px 1px gray;
-	grid-area: h4;
-	display: grid;
-	grid-template-columns: 1fr 2fr 4fr;
-	grid-template-areas: 
-	"th t e";
-	overflow: hidden;
-	height: 150px;
-	border: 2px solid black;
-}
-
 .navbar {
 	background-color: #8361AB;
 	box-shadow: 5px 3px 1px gray;
 	color: white;
 	grid-area: n;
-}
-
-.thumbnail {
-	grid-area: th;
-}
-
-.title {
-	color: white;
-	grid-area: t;
-	padding: 10px;
 }
 
 .socials {
@@ -191,17 +125,11 @@ div a {
 /*---Responsive Resize Below---*/
 
 @media (max-width : 1300px ){
-	h1 {
-		font-size: 20px;
-	}
 	
 	.container {
 		grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
-		"h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2 h2"
-		"h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3 h3"
-		"h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4 h4"
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
@@ -210,31 +138,5 @@ div a {
 		grid-template-areas: 
 		"th t"
 		"th e"
-	}
-	.heading2 {
-		grid-template-columns: auto;
-		grid-template-areas: 
-		"th t"
-		"th e"
-	}
-	.heading3 {
-		grid-template-columns: auto;
-		grid-template-areas: 
-		"th t"
-		"th e"
-	}
-	
-	.heading4 {
-		grid-template-columns: auto;
-		grid-template-areas: 
-		"th t"
-		"th e"
-	}	
-	
-	.excerpt {
-		padding: 0px 10px 10px;
-	}
-	.title {
-		padding: 0px 10px 0px;
 	}
 }
