@@ -132,6 +132,7 @@ nav ul {
 	padding: 5px 40px;
 	align-content: center;
 	justify-content: center;
+	border: 2px solid black;
 }
 
 .intro {
@@ -142,11 +143,11 @@ nav ul {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	grid-gap: 20px;
-	background-color: white;
+	background-color: #51B9AE;
 	box-shadow: 5px 3px 1px gray; 
 	grid-area: m;
 	padding: 40px;
-	border: 3px solid #51b9ae;
+	border: 2px solid black;
 }
 
 .navbar {

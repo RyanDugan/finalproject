@@ -98,7 +98,6 @@ nav ul {
 	grid-area: e;
 	padding: 30px 40px 10px 0px;
 	display: inline-block;
-	text-overflow: ellipsis;
 }
 
 .footer {
@@ -119,6 +118,7 @@ nav ul {
 	"th t e";
 	overflow: hidden;
 	height: 150px;
+	border: 2px solid black;
 }
 
 .heading2 {
@@ -132,6 +132,7 @@ nav ul {
 	"th t e";
 	overflow: hidden;
 	height: 150px;
+	border: 2px solid black;
 }
 
 .heading3 {
@@ -145,6 +146,7 @@ nav ul {
 	"th t e";
 	overflow: hidden;
 	height: 150px;
+	border: 2px solid black;
 }
 
 .heading4 {
@@ -158,6 +160,7 @@ nav ul {
 	"th t e";
 	overflow: hidden;
 	height: 150px;
+	border: 2px solid black;
 }
 
 .navbar {
