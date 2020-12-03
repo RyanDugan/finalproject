@@ -137,6 +137,7 @@ nav ul {
 	grid-area: m;
 	padding: 40px;
 	border: 2px solid black;
+	line-height: 1.8;
 }
 
 .navbar {
