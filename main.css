@@ -10,7 +10,7 @@
 }
 
 body {
-	background-image:url("images/pattern.overlay2.jpg");
+/*	background-image:url("images/pattern.overlay2.jpg"); */
 	font-size: 18px;
 	font-family: goudy-old-style,serif, Cambria;
 }
@@ -148,11 +148,11 @@ nav ul {
 	display: grid;
 	grid-template-columns: 2fr 2fr;
 	grid-gap: 20px;
-	background-color: #51B9AE;
+	background-color: #51B9AE; 
 	box-shadow: 5px 3px 1px gray; 
 	grid-area: m;
 	padding: 10px 40px 10px 40px;
-	border: 2px solid black;
+	border: 2px solid black; 
 	font-size: 20px;
 }
 
