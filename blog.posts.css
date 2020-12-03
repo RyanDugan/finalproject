@@ -3,11 +3,18 @@
 
 * {
 	box-sizing: border-box;
+	
 }
 
 * a {
 	text-decoration: none;
 	font-weight: bold;
+}
+
+* img {
+	align-content: center;
+	justify-content: center;
+	
 }
 
 body {
