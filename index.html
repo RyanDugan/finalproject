@@ -24,59 +24,9 @@
 			</nav>
 		</div>
 		
-		<div class="aside">
-			
-			<div class="mySlides fade">
-				<div class="numbertext">1 / 3</div>
-				<img src="blog images/adv.party.jpg" style="width: 100%">
-				<div class="text">Mage Hand Spell</div>
-			</div>
-		
-		
-			<div class="mySlides fade">
-				<div class="numbertext">2 / 3</div>
-				<img src="blog images/group.of.adventurers.jpg" style="width: 100%">
-				<div class="text">Spell 2</div>
-			</div>
-			
-			<div class="mySlides fade">
-				<div class="numbertext">3 / 3</div>
-				<img src="blog images/mighty.nein.png" style="width: 100%">
-				<div class="text">Spell 3</div>
-			</div>			
-			
-			<a class="prev" onClick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onClick="plusSlides(1)">&#10095;</a>
-			
-		</div>
-		
-		<script>
-			var slideIndex = 1;
-			showSlides(slideIndex);
-			
-			function plusSlides(n) {
-				showSlides(slideIndex += n);
-			}
-			
-			function currentSlide(n) {
-				showSlides(slideIndex = n);
-			}
-			
-			function showSlides(n) {
-				var i;
-				var slides = document.getElementsByClassName("mySlides");
-				if (n > slides.length) {slideIndex = 1}
-				if (n < 1) {slideIndex = slides.length}
-				for (i = 0; i < slides.length; i++) {
-					slides[i].style.display = "none";
-				}
-				slides[slideIndex-1].style.display = "block";
-			}	
-		</script>
-		
-		<!--<div class="aside"><b>Mage Hand Spell</b>
+		<div class="aside"><b>Mage Hand Spell</b>
 			<p>Conjure a spectral, floating hand that'll manipulate objects so you don't have to!</p>
-		</div>-->
+		</div>
 		
 		<div class="heading">
 			<h1><b>Welcome to the world of Dungeons and Dragons!</b> <i>Learn the basics of D&amp;D here.</i></h1> 
@@ -94,7 +44,8 @@
 			<p>We've got plenty more resources where that came from!</p>
 		</div>
 		<div class="container-youtube">
-			<iframe class="responsive-iframe" src="https://www.youtube.com/embed/videoseries?list=PL1tiwbzkOjQyr6-gqJ8r29j_rJkR49uDN"</iframe>
+			<iframe class="responsive-iframe" src="https://www.youtube.com/embed/videoseries?list=PL1tiwbzkOjQyr6-gqJ8r29j_rJkR49uDN" width=""></iframe>
+		</div>
 		</div>
 		<div class="footer">
 			<nav>
