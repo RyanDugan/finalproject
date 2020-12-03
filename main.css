@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+* a {
+	text-decoration: none;
+}
+
 body {
 	background-image:url("images/pattern.overlay2.jpg");
 	font-size: 18px;
@@ -12,7 +16,7 @@ body {
 }
 
 h1 {
-	font-size: 25px;
+	font-size: 27px;
 	font-weight: normal;
 }
 
@@ -148,6 +152,7 @@ nav ul {
 	grid-area: m;
 	padding: 40px;
 	border: 2px solid black;
+	font-size: 22px;
 }
 
 .navbar {
