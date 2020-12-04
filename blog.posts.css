@@ -22,7 +22,16 @@ h1 {
 	font-weight: bold;
 }
 
-img.center {
+img.center700 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 700px;
+	height: auto;
+}
+
+img.center500 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -31,7 +40,7 @@ img.center {
 	height: auto;
 }
 
-img.centergif {
+img.center300 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -102,6 +111,10 @@ p.center {
 
 .active {
 	background-color: #484848;
+}
+
+.centertext {
+	text-align: center;
 }
 
 .container {
