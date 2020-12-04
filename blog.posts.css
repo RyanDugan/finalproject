@@ -227,3 +227,12 @@ p.center {
 		border: none;
 	}
 }
+@media (max-width : 700px ) {
+	h2 {
+		font-size: 28px;
+	}
+	p, li {
+		font-size: 18px;
+	}
+
+}

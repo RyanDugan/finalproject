@@ -241,6 +241,9 @@ div a {
 		padding: 0px;
 		padding-left: 10px;
 	}
+	h2 {
+		font-size: 6px;
+	}
 
 	.heading {
 		display: grid;
