@@ -82,13 +82,19 @@ nav ul {
 }
 
 .aside {
-	background-color: black;
-	color: white;
+	background-color: #E75373;
+	color: black;
 	box-shadow: 5px 3px 1px gray;
 	grid-area: a;	
 	text-align: center;
 	padding: 40px;
 	font-family: adventure, script;
+	font-size: 25px;
+}
+
+.aside p {
+	font-size: 20px;
+	color: black;
 }
 
 .aside2 {
