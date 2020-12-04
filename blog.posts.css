@@ -234,5 +234,7 @@ p.center {
 	p, li {
 		font-size: 18px;
 	}
-
+	h1 {
+		font-size: 20px;
+	}
 }
