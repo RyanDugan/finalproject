@@ -216,9 +216,14 @@ p.center {
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
+	.heading {
+		padding: 10px 10px 10px 10px;
+	}
+	
 	.main {
 		grid-template-columns: auto;
 		grid-template-rows: auto;
+		padding: 10px 10px 10px 10px;
 	}
 	.responsive-iframe {
 		position: absolute;
