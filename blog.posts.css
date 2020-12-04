@@ -186,6 +186,10 @@ p.center {
 	grid-area: n;
 }
 
+.red {
+	color: #E75373;
+}
+
 .responsive-iframe {
 	position: absolute;
 	top: 0;
