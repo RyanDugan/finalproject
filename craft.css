@@ -17,7 +17,7 @@ body {
 	font-family: goudy-old-style,serif, Cambria;
 }
 
-form {
+.main form {
 	background-color: white;
 	padding: 20px;
 }
@@ -90,6 +90,29 @@ nav li {
 	font-size: 18px;
 }
 
+nav .search-container {
+	float: right;
+}
+
+nav input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+}
+
+nav .search-container button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #E75373;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	font-family: "Goudy Old Style", Cambria
+}
 nav li a {
 	display: block;
 	color: white;
