@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+* a {
+	color: white;
+}
+
 body {
 	background-image:url("images/pattern.overlay2.jpg"); 
 	font-size: 18px;
