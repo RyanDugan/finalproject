@@ -92,9 +92,9 @@ nav ul {
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
 		"s s s s s s s s s s s s"
-		"m m m m m m m m m m m m"
+		"m m m m m2 m2 m2 m2 m3 m3 m3 m3"
 		"s2 s2 s2 s2 s2 s2 s2 s2 s2 s2 s2 s2"
-		"m2 m2 m2 m2 m2 m2 m2 m2 m2 m2 m2 m2"
+		"m4 m4 m4 m4 m5 m5 m5 m5 m6 m6 m6 m6"
 		"f f f f f f f f f f f f";
 }
 
@@ -128,7 +128,7 @@ nav ul {
 	background-color: #51B9AE;
 	color: white;
 	box-shadow: 5px 3px 1px gray;
-	grid-area: m2;
+	grid-area: m;
 	padding: 5px 40px;
 	align-content: center;
 	justify-content: center;
@@ -139,12 +139,57 @@ nav ul {
 	background-color: #51B9AE;
 	color: white;
 	box-shadow: 5px 3px 1px gray;
-	grid-area: m;
+	grid-area: m2;
 	padding: 5px 40px;
 	align-content: center;
 	justify-content: center;
 	border: 2px solid black;
 }
+
+.main3 {
+	background-color: #51B9AE;
+	color: white;
+	box-shadow: 5px 3px 1px gray;
+	grid-area: m3;
+	padding: 5px 40px;
+	align-content: center;
+	justify-content: center;
+	border: 2px solid black;
+}
+
+.main4 {
+	background-color: #51B9AE;
+	color: white;
+	box-shadow: 5px 3px 1px gray;
+	grid-area: m4;
+	padding: 5px 40px;
+	align-content: center;
+	justify-content: center;
+	border: 2px solid black;
+}
+
+.main5 {
+	background-color: #51B9AE;
+	color: white;
+	box-shadow: 5px 3px 1px gray;
+	grid-area: m5;
+	padding: 5px 40px;
+	align-content: center;
+	justify-content: center;
+	border: 2px solid black;
+}
+
+.main6 {
+	background-color: #51B9AE;
+	color: white;
+	box-shadow: 5px 3px 1px gray;
+	grid-area: m6;
+	padding: 5px 40px;
+	align-content: center;
+	justify-content: center;
+	border: 2px solid black;
+}
+
 
 .navbar {
 	background-color: #8361AB;
@@ -197,9 +242,14 @@ nav ul {
 		grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
+		"s s s s s s s s s s s s"
 		"m m m m m m m m m m m m"
-		"a a a a a a a a a a a a"
-		"a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2"
+		"m2 m2 m2 m2 m2 m2 m2 m2 m2 m2 m2 m2"
+		"m3 m3 m3 m3 m3 m3 m3 m3 m3 m3 m3 m3"
+		"s s s s s s s s s s s s"
+		"m4 m4 m4 m4 m4 m4 m4 m4 m4 m4 m4 m4"
+		"m5 m5 m5 m5 m5 m5 m5 m5 m5 m5 m5 m5"
+		"m6 m6 m6 m6 m6 m6 m6 m6 m6 m6 m6 m6"
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
@@ -207,11 +257,11 @@ nav ul {
 	.heading {
 		padding: 10px 10px 10px 10px;
 	}
-	.main {
+	.main .main2 .main3 .main4 .main5 .main6 {
 		grid-template-columns: auto;
 		grid-template-rows: auto;
 		padding: 10px 10px 10px 10px;
-	}
+	} 
 	.responsive-iframe {
 		position: absolute;
 		top: 0;
