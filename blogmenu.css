@@ -254,6 +254,17 @@ div a {
 		font-size: 22px;
 	}
 }
+@media (max-width:750px){
+	.search-container button {
+		display: none;
+	}
+}
+
+@media (max-width:750px){
+	.search-container button {
+		display: none;
+	}
+}
 
 @media (max-width : 700px ){
 

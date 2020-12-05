@@ -299,6 +299,12 @@ nav ul {
 	}
 }
 
+@media (max-width:750px){
+	.search-container button {
+		display: none;
+	}
+}
+
 @media (max-width : 500px ) {
 	h2 {
 		font-size: 25px;
