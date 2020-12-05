@@ -191,7 +191,7 @@ nav ul {
 	background-color: #51B9AE;
 	box-shadow: 5px 3px 1px gray;
 	grid-area: m4;
-	padding: 10px 40px;
+	padding: 10px 20px;
 	align-content: center;
 	justify-content: center;
 	border: 2px solid black;
@@ -201,7 +201,7 @@ nav ul {
 	background-color: #51B9AE;
 	box-shadow: 5px 3px 1px gray;
 	grid-area: m5;
-	padding: 10px 40px;
+	padding: 10px 20px;
 	align-content: center;
 	justify-content: center;
 	border: 2px solid black;
@@ -211,7 +211,7 @@ nav ul {
 	background-color: #51B9AE;
 	box-shadow: 5px 3px 1px gray;
 	grid-area: m6;
-	padding: 10px 40px;
+	padding: 10px 20px;
 	align-content: center;
 	justify-content: center;
 	border: 2px solid black;
