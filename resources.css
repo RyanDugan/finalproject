@@ -81,18 +81,6 @@ nav ul {
 	background-color: #484848;
 }
 
-.aside p {
-	font-size: 20px;
-	color: black;
-}
-
-.aside2 {
-	background-color: #D6E052;
-	box-shadow: 5px 3px 1px gray;
-	grid-area: a2;
-	padding: 20px 40px;
-}
-
 .container {
 	display: grid;
 	grid-gap: 15px;
@@ -100,13 +88,11 @@ nav ul {
 	height: 100%;
 	margin: 15px auto auto auto;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 50px auto auto auto auto 50px;
+	grid-template-rows: 50px auto auto auto 50px;
 	grid-template-areas: 
 		"n n n n n n n n n n n n"
 		"h h h h h h h h h h h h"
 		"s s s s s s s s s s s s"
-		"m m m m m m m m m m m m"
-		"m m m m m m m m m m m m"
 		"m m m m m m m m m m m m"
 		"f f f f f f f f f f f f";
 }
@@ -137,20 +123,15 @@ nav ul {
 	border: 2px solid black;
 }
 
-.intro {
-	
-}
-
 .main {
-	display: grid;
-	grid-template-columns: 2fr 2fr;
-	grid-gap: 20px;
-	background-color: #51B9AE; 
-	box-shadow: 5px 3px 1px gray; 
+	background-color: #51B9AE;
+	color: white;
+	box-shadow: 5px 3px 1px gray;
 	grid-area: m;
-	padding: 10px 40px 10px 40px;
-	border: 2px solid black; 
-	font-size: 20px;
+	padding: 5px 40px;
+	align-content: center;
+	justify-content: center;
+	border: 2px solid black;
 }
 
 .navbar {
@@ -172,14 +153,14 @@ nav ul {
 }
 
 .section {
-	background-color: #E75373;
+	background-color: #D6E052;
 	color: black;
 	box-shadow: 5px 3px 1px gray;
-	grid-area: s;	
-	text-align: center;
-	padding: 40px;
-	font-family: adventure, script;
-	font-size: 25px;
+	grid-area: s;
+	padding: 5px 40px;
+	align-content: center;
+	justify-content: center;
+	border: 2px solid black;
 }
 
 .socials {
