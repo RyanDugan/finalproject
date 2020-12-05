@@ -13,8 +13,27 @@
 
 body {
 	background-image:url("images/pattern.overlay2.jpg");
-	font-size: 22px;
+	font-size: 20px;
 	font-family: goudy-old-style,serif, Cambria;
+}
+
+form {
+	background-color: white;
+/*	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-areas: 
+	"s l"; */
+}
+
+.learn {
+	background-color: #e75373;
+	color: white;
+	grid-area: l
+}
+
+.section {
+	background-color: #E6E6E6;
+	grid-area: s
 }
 
 h1 {
@@ -174,7 +193,7 @@ p.center {
 	grid-area: m;
 	padding: 40px;
 	border: 2px solid black;
-	line-height: 1.8;
+/*	line-height: 1.8; */
 }
 
 .navbar {
