@@ -122,8 +122,6 @@ nav ul {
 		"n n n n n n n n n n n n"
 		"a a a h h h h h h h h h"
 		"a a a m m m m m m m m m"
-	/*	"a2 a2 a2 m m m m m m m m m" */
-	/*	"a2 a2 a2 m m m m m m m m m" */
 		"f f f f f f f f f f f f";
 }
 
@@ -182,6 +180,7 @@ nav ul {
 
 .right {
 	float: right;
+	
 }
 
 .socials {
@@ -197,7 +196,7 @@ nav ul {
 		"h h h h h h h h h h h h"
 		"a a a a a a a a a a a a"
 		"m m m m m m m m m m m m"
-		"a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2 a2"
+		"m m m m m m m m m m m m"
 		"f f f f f f f f f f f f";
 		width: 100%;
 	}
