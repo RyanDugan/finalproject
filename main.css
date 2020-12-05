@@ -67,7 +67,8 @@ nav .search-container button {
 	border: none;
 	cursor: pointer;
 	color: white;
-	font-family: "Goudy Old Style", Cambria
+	font-family: "Goudy Old Style", Cambria;
+	overflow: hidden;
 }
 
 nav li a {
@@ -244,6 +245,11 @@ nav ul {
 }
 }
 
+@media (max-width:750px){
+	.search-container button {
+		display: none;
+	}
+}
 
 
 @media (max-width : 500px ) {
