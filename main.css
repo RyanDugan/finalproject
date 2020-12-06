@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-	font-size: 27px;
+	font-size: 30px;
 	font-weight: normal;
 }
 
@@ -108,17 +108,26 @@ nav ul {
 
 .aside {
 	background-color: black;
-/*	background-image:url("images/ravnica2.png");
-	background-repeat: no-repeat; */
+	background-image: url("images/ravnica3.jpg");
 	color: white;
 	box-shadow: 5px 3px 1px gray;
 	grid-area: a;	
-	text-align: center;;
 	font-family: adventure, script;
 	font-size: 25px;
 	height: auto;
 	width: auto;
 	padding: 40px;
+	text-align: center;
+}
+
+.aside a {
+	color: white;
+}
+
+.container-image {
+	position: relative;
+	text-align: center;
+	color: white;
 }
 
 .aside p {
@@ -129,7 +138,8 @@ nav ul {
 
 .aside img {
 	display: block;
-	height: auto;
+	height: 100%;
+	width: 100%;
 	max-width: 100%;
 }
 
