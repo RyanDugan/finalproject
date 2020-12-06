@@ -288,6 +288,6 @@ nav ul {
 	}
 	.aside p {
 		font-size: 16px;
-		font-family: "Goudy Old Style", Cambria;
+		font-family: goudy-old-style,serif, Cambria;
 	}
 }
