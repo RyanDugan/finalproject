@@ -107,19 +107,30 @@ nav ul {
 }
 
 .aside {
-	background-color: #E75373;
-	color: black;
+	background-color: black;
+/*	background-image:url("images/ravnica2.png");
+	background-repeat: no-repeat; */
+	color: white;
 	box-shadow: 5px 3px 1px gray;
 	grid-area: a;	
-	text-align: center;
-	padding: 40px;
+	text-align: center;;
 	font-family: adventure, script;
 	font-size: 25px;
+	height: auto;
+	width: auto;
+	padding: 40px;
 }
 
 .aside p {
 	font-size: 20px;
-	color: black;
+	color: white;
+	font-family: "Goudy Old Style", Cambria;
+}
+
+.aside img {
+	display: block;
+	height: auto;
+	max-width: 100%;
 }
 
 .aside2 {
