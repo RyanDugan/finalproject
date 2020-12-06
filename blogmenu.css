@@ -255,7 +255,7 @@ div a {
 
 @media (max-width : 900px ){
 	h1 {
-		font-size: 22px;
+		font-size: 21px;
 	}
 }
 @media (max-width:750px){
@@ -274,6 +274,7 @@ div a {
 
 	.excerpt {
 		padding: 0px 10px 0px 10px;
+		font-size: 14px;
 	}
 	.title {
 		padding: 0px;
