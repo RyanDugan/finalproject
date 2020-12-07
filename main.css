@@ -270,6 +270,9 @@ nav ul {
 	.search-container button {
 		display: none;
 	}
+	nav .search-container {
+	display: none;
+}
 }
 
 
@@ -289,5 +292,10 @@ nav ul {
 	.aside p {
 		font-size: 20px;
 		font-family: goudy-old-style,serif, Cambria;
+	}
+}
+@media (max-width:450px) {
+	nav li a {
+		padding-left: 5px;
 	}
 }
