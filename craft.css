@@ -290,3 +290,8 @@ p.center {
 		font-size: 20px;
 	}
 }
+@media (max-width:450px) {
+	nav li a {
+		padding-left: 5px;
+	}
+}
